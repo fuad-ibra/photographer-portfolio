@@ -125,13 +125,6 @@ body {
   min-width: 0;
 }
 
-/*
-(i) Стили будут применяться ко 
-всем классам содержащим *__container
-Например header__container, main__container и т.д.
-Снипет (HTML): cnt
-*/
-
 [class*=__container] {
   max-width: 73.125rem;
   -webkit-box-sizing: content-box;
